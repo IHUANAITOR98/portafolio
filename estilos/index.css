@@ -1,4 +1,15 @@
-#presentacion{
+/*por clase.- Rasgos generales*/
+.main_container{
     border: 4px solid;
-    border-radius: 30px
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/*por id.- Rasgos específicos*/
+#presentacion{
+    background-color: darkkhaki;
+}
+
+#experiencia{
+    background-color: azure;
 }
