@@ -1,15 +1,78 @@
 /*por clase.- Rasgos generales*/
+.body{
+    place-content: center;
+    background-color: #C5B974;
+    padding: 0;
+    margin: 0;
+}
+
+.separador{
+    height: 50px;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #E6C835;
+    display: flex;
+}
+
+.nav_principal{
+    width: 80%;
+    height: 40px;
+    border-right: 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.nav_seccion{
+    border-right: 3px solid;
+    width: 10%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
 .main_container{
     border: 4px solid;
     border-radius: 30px;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
-/*por id.- Rasgos específicos*/
+.presentacion_container{
+	background-color: white;
+  	border: 2px solid;
+    padding: 10px;
+    width: 50%;
+}
+
+.footer{
+    background-color: #89771F;
+    padding: 0%;
+    width: 100%;
+}
+
+/*por id.- Rasgos específicos
+
+    Colores: 1. #F4F0D6, 2. #C5B974
+            3. #89771F, 4. #E6C835
+*/
+
 #presentacion{
-    background-color: darkkhaki;
+    background-color: rgb(228, 221, 129);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
 }
 
 #experiencia{
-    background-color: azure;
+    background-color: rgb(175, 248, 248);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
 }
